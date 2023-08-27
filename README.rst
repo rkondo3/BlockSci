@@ -4,7 +4,7 @@ BlockSci
 Installation on Ubuntu 2023
 =====================
 
-
+::
   sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
   sudo apt-get update
   sudo apt install cmake libtool autoconf libboost-filesystem-dev libboost-iostreams-dev \
