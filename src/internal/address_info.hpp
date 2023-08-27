@@ -14,6 +14,7 @@
 #include <blocksci/core/meta.hpp>
 
 #include <string>
+#include <stdexcept>
 #include <vector>
 
 namespace blocksci {
