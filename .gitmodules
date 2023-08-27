@@ -21,7 +21,7 @@
 	url = https://github.com/muellan/clipp
 [submodule "libs/rocksdb"]
 	path = external/rocksdb
-	url = https://github.com/facebook/rocksdb
+	url = https://github.com/rkondo3/rocksdb.git
 [submodule "external/cereal"]
 	path = external/cereal
 	url = https://github.com/USCiLab/cereal
