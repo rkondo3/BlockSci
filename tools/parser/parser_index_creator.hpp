@@ -12,6 +12,7 @@
 #include "parser_fwd.hpp"
 
 #include <future>
+#include <thread>
 
 namespace blocksci {
     struct State;

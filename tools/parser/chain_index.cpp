@@ -20,8 +20,10 @@
 #include <cereal/archives/binary.hpp>
 
 #include <cmath>
-#include <future>
 #include <iostream>
+#include <future>
+#include <thread>
+
 
 #ifdef BLOCKSCI_FILE_PARSER
 
@@ -123,6 +125,7 @@ void ChainIndex<FileTag>::update(const ConfigType &config, blocksci::BlockHeight
     auto fileCount = maxFileNum - fileNum + 1;
     int filesDone = 0;
     using namespace std::chrono_literals;
+
     std::atomic<int> activeThreads{0};
     {
         std::vector<std::future<void>> blockFutures;
