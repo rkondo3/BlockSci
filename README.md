@@ -1,4 +1,4 @@
-#BlockSci
+#BlockScia
 
 ## Installation on Ubuntu 2023
 ```
@@ -13,7 +13,7 @@
   cd BlockSci
   mkdir release
   cd release
-  CC=gcc-1 CXX=g++-11 cmake -DCMAKE_BUILD_TYPE=Release ..
+  CC=gcc-11 CXX=g++-11 cmake -DCMAKE_BUILD_TYPE=Release ..
   make
   sudo make install
   
